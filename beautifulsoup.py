@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver # type: ignore
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.service import Service
 import csv
